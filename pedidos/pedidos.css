@@ -1,0 +1,45 @@
+*{
+    margin: 2;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table , th, td{
+    border: 1px solid blue;
+}
+
+table.tabela-1, table.tabela-2 {
+    background: #e8e8ff;
+    border-radius: 3px;
+    padding: 10px;
+
+}
+
+th{
+    padding: 5px;
+    border: 2px solid rgb(64, 103, 176);
+    background: #ababf2;
+}
+
+td{
+    text-align: center;
+    width: 200px;
+    padding: 3px;
+}
+
+button{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(161, 175, 255);
+    font-size:small;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+td.status-entregue{
+    background-color: chartreuse;
+}
+
+td.status

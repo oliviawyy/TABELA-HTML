@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pedidos.css">
+    <title>Tabelas formatadas com CSS</title>
+    
+</head>
+<body>
+    <h1>Tabelas Formatadas com CSS</h1>
+
+    <h2>Tabela 1: Produtos</h2>
+
+    <!-- TAG inicio da tabela -->
+    <table class="tabela-1">
+        <!-- THEAD Cabeçalho da tabela -->
+        <thead>
+            <!-- TR linha do cabecalho da tabela -->
+             <tr>
+                <!-- TH conteudo (celula) do cabecalho da tabela -->
+                <th>Imagem</th>
+                <th>Nome do produto</th>
+                <th>Preço</th>
+                <th>Comprar</th>
+             </tr>
+        </thead>
+        <!-- Corpo da tabela -->
+        <tbody>
+            <!-- TR linha do corpo da tabela -->
+             <tr>
+                <td><img src="/produtos/img/moletom-branco-com-logo.png" width="50px" alt="moletom branco com logo"/></td>
+                <td>Moletom Branco</td>
+                <td>R$ 89,90</td>
+                <td><button>Comprar</button></td>
+             </tr>
+
+            <tr>
+             <td><img src="/produtos/img/puffer-azul.png"  width="50px" alt="puffer azul"/></td>
+             <td>Puffer Azul</td>
+             <td>R$ 130,00</td>
+             <td><button>Comprar</button></td>
+            </tr>
+
+            <tr>
+                <td><img src="/produtos/img/puffer-masc.png" width="50px" alt="puffer masculina"/></td>
+                <td>Puffer Azul Masculina</td>
+                <td>R$ 150,00</td>
+                <td><button>Comprar</button></td>
+            </tr>
+        </tbody>
+
+
+
+
+    </table>
+
+    <h2>Tabela 2: Historico de Pedidos</h2>
+
+    <table class="tabela-2">
+    <thead>
+        <tr>
+            <th>Numero do Pedido</th>
+            <th>Data</th>
+            <th>Valor Total</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Linha do corpo da tabela -->
+         <tr>
+            <td>12345</td>
+            <td>2024-06-17</td>
+            <td>R$ 89,90</td>
+            <td class="status-entregue">Entregue</td>
+         </tr>
+
+         <tr>
+            <td>62399</td>
+            <td>2024-09-23</td>
+            <td>R$ 130,00</td>
+            <td class="status-processando">Em Processamento</td>
+         </tr>
+
+         <tr>
+            <td>09877</td>
+            <td>2024-09-20</td>
+            <td>R$ 150,00</td>
+            <td class="status-aguardando-pagamento">Aguardando Pagamento</td>
+         </tr>
+
+    </tbody>
+    </table>
+
+</body>
+</html>

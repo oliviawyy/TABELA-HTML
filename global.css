@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+table{
+    border: 2px solid rgb(151, 151, 255);
+    background: #ccccff;
+    margin: 25px auto;
+}
+
+th{
+    color: rgb(3, 13, 32);
+    background-color: rgb(151, 151, 255);
+    border: 2px solid rgb(10, 48, 112);
+    padding: 5px;
+}
+
+td{
+    border: 2px solid rgb(40, 80, 148);
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+}
