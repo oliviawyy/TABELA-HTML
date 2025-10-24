@@ -42,4 +42,10 @@ td.status-entregue{
     background-color: chartreuse;
 }
 
-td.status
+td.status-processando{
+    background-color:coral;
+}
+
+td.status-aguardando-pagamento{
+    background-color: crimson;
+}
